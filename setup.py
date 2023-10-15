@@ -10,7 +10,7 @@ from torch.utils.cpp_extension import CppExtension
 
 torch_ver = [int(x) for x in torch.__version__.split(".")[:2]]
 assert torch_ver >= [1, 3], "Requires PyTorch >= 1.3"
-
+#你好
 
 def get_extensions():
     this_dir = path.dirname(path.abspath(__file__))
